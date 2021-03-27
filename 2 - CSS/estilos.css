@@ -1,0 +1,57 @@
+/* estilos.css */
+/*
+tag {
+    propriedade1: valor1;
+    propriedade2: valor2;
+}
+
+id="nomeUnico" no HTML
+#nomeUnico {
+    propriedade1: valor1;
+    propriedade2: valor2;
+}
+
+class="nomeDoGrupo" no HTML
+.nomeDoGrupo {
+    propriedade1: valor1;
+    propriedade2: valor2;
+}
+*/
+
+body {
+    font-family: Arial;
+    background-color: #dddddd;
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+}
+
+h2 {
+    color: #47a845;
+}
+
+p {
+    text-align: justify;
+    color: 006699;
+}
+
+img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+#poster {
+    width: 300px;
+}
+
+.impar {
+    color: red;
+}
+
+.par {
+    color: blue;
+    font-weight: bold;
+}
+
