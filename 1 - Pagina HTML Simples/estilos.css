@@ -1,0 +1,31 @@
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+
+h2{
+    color: darkgray;
+    text-align: center;
+    
+}
+h3{
+    color:yellow;
+    text-align: center;
+}
+img{
+    border-radius: 15px;
+}
+p{
+    text-align: center;
+    font:bold;
+}
+ul{
+    text-align: center;
+}
+ol{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
