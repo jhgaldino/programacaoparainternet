@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.item4{
+  grid-row-start:2;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item5{
+  grid-row-start: 2;
+  grid-row-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 3
+}
+.item10{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+</style>
+</head>
+<body>
+
+<h1>Layout do Youtube</h1>
+
+<div class="grid-container">
+  <div class="item1">logo</div>
+  <div class="item2">barra da pesquisa</div>
+  <div class="item3">notificações e configurações</div>  
+  <div class="item4">Video em execução</div>
+  <div class="item5">Videos Relacionados</div>
+  <div class="item6">Título do Vídeo</div>
+  <div class="item7">Opção de denuncia</div>
+  <div class="item8">Nome do Canal do Vídeo, descrição do vídeo e loja de produtos do canal</div>
+  <div class="item9">Botão de Inscrever</div>
+  <div class="item10">Barra de Comentários</div>
+
+  
+</div>
+</body>
+</html>
