@@ -1,4 +1,5 @@
-const bd = {
+
+export const bd = {
     nome: "Stranger Things",
     generos: [
         "Mistério",
@@ -293,3 +294,4 @@ const bd = {
         }
     ]
 }
+
